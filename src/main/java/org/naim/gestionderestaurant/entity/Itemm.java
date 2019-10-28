@@ -15,9 +15,9 @@ import java.util.Collection;
 public class Itemm implements Serializable {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long itemID;
-    private  String nameItem;
-    private double price;
+    private Long ItemID;
+    private  String NameItem;
+    private double Price;
 
     @OneToMany(mappedBy = "itemm")
     private Collection<OrderItems>orderItemsItems;

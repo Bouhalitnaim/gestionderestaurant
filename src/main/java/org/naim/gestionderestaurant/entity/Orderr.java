@@ -15,7 +15,7 @@ import java.util.Collection;
 public class Orderr implements Serializable {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long OrderId;
+    private Long OrderID;
     private String OrderNo;
     private String PMethod ;
     private double GTotal ;
